@@ -230,9 +230,8 @@ footer {
     overflow: hidden;*/
 
 .contieneArticulos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1f);
 }
 
 .articulo {

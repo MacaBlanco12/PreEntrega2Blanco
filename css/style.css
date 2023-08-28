@@ -143,49 +143,64 @@ header {
     margin-bottom: 2%;
     background-color: #B7ACA3;
     color: #192241;
+    font-size: 50px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 4px;
     text-align: center;
 }
 
-.contieneTratamientos {
+.contieneTratamientos{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    flex-direction: row; 
 }
+.tratamientoHombre img{
+    margin-top: 10px;
+}
+.tratamientoMujer img{
+    margin-top: 10px;
 
-
+}
 .tratamientoMujer {
     background-color: #FBDFEB;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 40px 10px 40px;
+
 }
 
 .tratamientoHombre {
     background-color: #253779;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 40px 10px 40px;
 }
 
 .botonTratamientoM {
     background-color: #253779;
+    width: 25%;
 }
 
 .botonTratamientoH {
     background-color: #EDC8C8;
+    width: 25%;
 }
 
 .botonTratamientoM a {
     text-decoration: none;
     color: #EDC8C8;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .botonTratamientoH a {
     text-decoration: none;
     color: #192241;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -227,33 +242,75 @@ footer {
  background-image: url(../assets/images/Vela\ soja\ uva\ \(1\).png);
     overflow: hidden;*/
 
-.contieneArticulos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.articulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 48rem;
+    .contieneArticulos {
+        background-color: #192241;
+        display: grid;
+        grid-template-columns: repeat(4,1f);
+        grid-template-rows: repeat(3,1f);
+        grid-template-areas:
+        "articulo1 articulo2 "
+        "articulo1 articulo2 "
+        "articulo3 articulo4 "
+        "articulo3 articulo4 "
+        "articulo5 articulo4 "
+        "articulo5 articulo4 ";
+        row-gap: 20px;
+        column-gap: 10px;
+        margin: 10px 20px 10px 20px;
+        align-content: center;
+      
+    }
+.articulo1{
     background-color: #192241;
-    padding: 10px 20px 10px 20px;
-    padding: 2rem;
-    margin: 20px 10px 20px 10px;
+    grid-area: articulo1;
+    display: flex;
+    align-items: center;
 }
 
-.articulo p {
+.articulo2{
+    background-color: #192241;
+    grid-area: articulo2;
+    display: flex;
+    align-items: center;
+}
+.articulo3{
+    background-color: #192241;
+    grid-area: articulo3;
+    display: flex;
+    align-items: center;
+}
+.articulo4{
+    background-color: #192241;
+    grid-area: articulo4;
+    display: flex;
+    align-items: center;
+    
+}
+
+.articulo5{
+    background-color: #192241;
+    grid-area: articulo5;
+    display: flex;
+    align-items: center;
+}
+
+.contieneArticulos img{
+    width: 60%;
+}
+.contieneArticulos p {
     font-family: 'Montserrat', sans-serif;
     color: #FBDFEB;
-    font-size: 20px;
+    font-size: 30px;
+    width: 90%;
+    
 }
 
-.articulo h3 {
+.contieneArticulos h3 {
     font-family: 'Montserrat', sans-serif;
     color: #edbdbd;
-    font-size: 35px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 /*tecnologia----*/
@@ -531,7 +588,3 @@ footer {
 
 }
 
-#simulador{
-    width: 30%;
-    height: 30%;
-}

@@ -51,7 +51,7 @@ header {
 .cabecera a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,8 +71,8 @@ header {
     text-align: center;
     color: #B7ACA3;
     text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 10px;
+    font-size: 2.5rem;
+    letter-spacing: .625rem;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -85,13 +85,13 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: .625rem    ;
     text-align: center;
 }
 
 .sectionMenu a {
     color: #253779;
-    font-size: 35px;
+    font-size: 2.1875rem
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -100,10 +100,10 @@ header {
 
 .sectionPromo h1 {
     color: #253779;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
     text-align: center;
 }
 
@@ -131,7 +131,7 @@ header {
 
 .botonPromo a {
     color: #192241;
-    font-size: 10px;
+    font-size: .625rem;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -144,10 +144,10 @@ header {
     margin-bottom: 2%;
     background-color: #B7ACA3;
     color: #192241;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
     text-align: center;
 }
 
@@ -204,14 +204,14 @@ header {
 .botonTratamientoM a {
     text-decoration: none;
     color: #EDC8C8;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .botonTratamientoH a {
     text-decoration: none;
     color: #192241;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -227,13 +227,13 @@ footer {
 
 .sectionRedes a {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sectionContacto a {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -249,9 +249,7 @@ footer {
     align-items: center;
 }
 
-/*blog----------------
- background-image: url(../assets/images/Vela\ soja\ uva\ \(1\).png);
-    overflow: hidden;*/
+
 
 .contieneArticulos {
     background-color: #192241;
@@ -315,7 +313,7 @@ footer {
 .contieneArticulos p {
     font-family: 'Montserrat', sans-serif;
     color: #FBDFEB;
-    font-size: 30px;
+    font-size: 1.875rem;
     width: 90%;
 
 }
@@ -323,7 +321,7 @@ footer {
 .contieneArticulos h3 {
     font-family: 'Montserrat', sans-serif;
     color: #edbdbd;
-    font-size: 45px;
+    font-size: 2.8125rem;
     display: flex;
     justify-content: center;
 }
@@ -345,14 +343,14 @@ footer {
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     color: #edbdbd;
-    font-size: 15px;
+    font-size: .9375rem;
 
 }
 
 .lista ul li {
     font-family: 'Montserrat', sans-serif;
     color: #B7ACA3;
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .comenzar a {
@@ -360,7 +358,7 @@ footer {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #192241;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /*tecnologia----*/
@@ -378,7 +376,7 @@ footer {
 .parrafo p {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #bab5b2;
 }
 
@@ -406,7 +404,7 @@ footer {
 .segundaTexto p {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .segundaTexto {
@@ -421,7 +419,7 @@ footer {
 .inicia h1 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .inicia {
@@ -432,7 +430,7 @@ footer {
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .inicia a {
@@ -440,7 +438,7 @@ footer {
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-top: 5%;
     border-color: black;
     border-style: solid;
@@ -452,7 +450,7 @@ footer {
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-top: 5%;
     border-color: black;
     border-style: solid;
@@ -488,14 +486,14 @@ footer {
 .iniciaRegistro h1 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .iniciaRegistro p {
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     color: #192241;
-    font-size: 15px;
+    font-size: .9375rem;
     background-color: #edbdbd;
     margin-top: 3%;
 }
@@ -505,7 +503,7 @@ footer {
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-top: 5%;
     border-color: black;
     border-style: solid;
@@ -523,7 +521,7 @@ footer {
 .registrate h1 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: center;
 }
 
@@ -538,12 +536,7 @@ footer {
 
 .formularioRegistro {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-
+    
 }
 
 
@@ -571,7 +564,7 @@ footer {
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
-    font-size: 25px;
+    font-size: 1.5625rem;
     border: none;
 
 }
@@ -582,7 +575,7 @@ footer {
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 
 }
@@ -602,12 +595,12 @@ footer {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .sectionPromo h3 {
     color: #192241;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: none;
     font-family: "Champagne & Limousines V1";
     text-align: center;
@@ -618,10 +611,27 @@ footer {
 
 /*MEDIA QUERY 375 -*/
 @media (max-width: 375px) {
-      /*header--*/
-    .cabecera a {
-        font-size: 8px;
+
+    .contieneArticulos {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    .contieneArticulos h3{
+        font-size: 1.25rem;
+    }
+    .contieneArticulos p{
+        font-size: .9375rem;
+    }
+
+    .contieneArticulos img{
+        width: 30%;
+    }
+    
+    
+      /*header--*/
 
     .cabecera ul {
         display: flex;
@@ -634,9 +644,7 @@ footer {
         justify-content: center;
     }
 
-    .sectionLogo h1 {
-        font-size: 10px;
-    }
+
 
     .sectionMenu {
         display: flex;
@@ -644,31 +652,15 @@ footer {
         align-items: baseline;
         gap: 5px;
     }
-
-    .sectionMenu a {
-        font-size: 10px;
-    }
-
-    .sectionPromo h1 {
-        font-size: 25px;
-    }
-
-    .sectionPromo p {
-        font-size: 12px;
-    }
-
+    
     .contienePromos {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 
     .promo {
         width: 80%;
-    }
-
-    .sectionTratamiento h1 {
-        font-size: 25px;
     }
 
     .contieneTratamientos {
@@ -726,7 +718,7 @@ footer {
 
     .sectionContacto a {
         text-align: center;
-        font-size: 8px;
+      
 
     }
 
@@ -743,6 +735,23 @@ footer {
 }
 /*MEDIA QUERY 425 -*/
 @media (max-width: 425px){
+    .contieneArticulos {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contieneArticulos h3{
+        font-size: 1.25rem;
+    }
+    .contieneArticulos p{
+        font-size: .9375rem;
+    }
+
+    .contieneArticulos img{
+        width: 40%;
+    }
    
     /*header*/
     .cabecera a {
@@ -785,7 +794,7 @@ footer {
     .contienePromos {
         display: flex;
         flex-direction: column;
-        
+        align-items: center;
     }
     .promo img{
         display: flex;
@@ -868,6 +877,23 @@ footer {
 }
 /*MEDIA QUERY 768 -*/
 @media (max-width: 768px){
+    .contieneArticulos {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contieneArticulos h3{
+        font-size: 1.25rem;
+    }
+    .contieneArticulos p{
+        font-size: .9375rem;
+    }
+
+    .contieneArticulos img{
+        width: 40%;
+    }
     .cabecera a {
         font-size: 10px;
     }
@@ -908,6 +934,7 @@ footer {
     .contienePromos {
         display: flex;
         flex-direction: column;
+        align-items: center;
         
     }
     .promo img{

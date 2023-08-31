@@ -42,12 +42,13 @@ header {
     width: 100%;
     height: 10%;
 }
+
 .cabecera ul {
     display: flex;
     flex-direction: row;
 }
 
-.cabecera a{
+.cabecera a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -150,17 +151,27 @@ header {
     text-align: center;
 }
 
-.contieneTratamientos{
-    display: flex;
-    flex-direction: row; 
+.videoPrincipalTratamiento {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    object-fit: contain;
 }
-.tratamientoHombre img{
+
+.contieneTratamientos {
+    display: flex;
+    flex-direction: row;
+}
+
+.tratamientoHombre img {
     margin-top: 10px;
 }
-.tratamientoMujer img{
+
+.tratamientoMujer img {
     margin-top: 10px;
 
 }
+
 .tratamientoMujer {
     background-color: #FBDFEB;
     width: 50%;
@@ -242,67 +253,71 @@ footer {
  background-image: url(../assets/images/Vela\ soja\ uva\ \(1\).png);
     overflow: hidden;*/
 
-    .contieneArticulos {
-        background-color: #192241;
-        display: grid;
-        grid-template-columns: repeat(4,1f);
-        grid-template-rows: repeat(3,1f);
-        grid-template-areas:
+.contieneArticulos {
+    background-color: #192241;
+    display: grid;
+    grid-template-columns: repeat(4, 1f);
+    grid-template-rows: repeat(3, 1f);
+    grid-template-areas:
         "articulo1 articulo2 "
         "articulo1 articulo2 "
         "articulo3 articulo4 "
         "articulo3 articulo4 "
         "articulo5 articulo4 "
         "articulo5 articulo4 ";
-        row-gap: 20px;
-        column-gap: 10px;
-        margin: 10px 20px 10px 20px;
-        align-content: center;
-      
-    }
-.articulo1{
+    row-gap: 20px;
+    column-gap: 10px;
+    margin: 10px 20px 10px 20px;
+    align-content: center;
+
+}
+
+.articulo1 {
     background-color: #192241;
     grid-area: articulo1;
     display: flex;
     align-items: center;
 }
 
-.articulo2{
+.articulo2 {
     background-color: #192241;
     grid-area: articulo2;
     display: flex;
     align-items: center;
 }
-.articulo3{
+
+.articulo3 {
     background-color: #192241;
     grid-area: articulo3;
     display: flex;
     align-items: center;
 }
-.articulo4{
+
+.articulo4 {
     background-color: #192241;
     grid-area: articulo4;
     display: flex;
     align-items: center;
-    
+
 }
 
-.articulo5{
+.articulo5 {
     background-color: #192241;
     grid-area: articulo5;
     display: flex;
     align-items: center;
 }
 
-.contieneArticulos img{
+.contieneArticulos img {
     width: 60%;
 }
+
 .contieneArticulos p {
     font-family: 'Montserrat', sans-serif;
     color: #FBDFEB;
     font-size: 30px;
     width: 90%;
-    
+
 }
 
 .contieneArticulos h3 {
@@ -318,6 +333,7 @@ footer {
     width: 10%;
     height: 20%;
 }
+
 .lista {
     width: 30%;
     background-color: #192241;
@@ -430,7 +446,8 @@ footer {
     border-style: solid;
     border-width: 1px;
 }
-.ingresa{
+
+.ingresa {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #253779;
@@ -441,6 +458,7 @@ footer {
     border-style: solid;
     border-width: 1px;
 }
+
 .controls {
     width: 100%;
     margin-top: 5%;
@@ -457,6 +475,7 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
 .iniciaRegistro {
     width: 50%;
     margin-top: 3%;
@@ -465,12 +484,14 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 .iniciaRegistro h1 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
     font-size: 35px;
 }
-.iniciaRegistro p{
+
+.iniciaRegistro p {
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     color: #192241;
@@ -478,6 +499,7 @@ footer {
     background-color: #edbdbd;
     margin-top: 3%;
 }
+
 .iniciaRegistro a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -489,8 +511,8 @@ footer {
     border-style: solid;
     border-width: 1px;
 }
-.principal
-{
+
+.principal {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -498,23 +520,24 @@ footer {
 
 
 /*REGISTRO---*/
-.registrate h1{
+.registrate h1 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
     font-size: 35px;
     text-align: center;
 }
 
-.controlR{
-    margin-top: 10%;  
+.controlR {
+    margin-top: 10%;
     background-color: rgb(215, 211, 211);
     padding: 10px;
     padding-left: 50px;
     border: rgba(215, 211, 211, 0.614);
 
 }
+
 .formularioRegistro {
-  
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -524,24 +547,25 @@ footer {
 }
 
 
-.sectionDos{
+.sectionDos {
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 
-.botones{
+.botones {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 
 }
-.confirmar{
+
+.confirmar {
     margin-top: 10%;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -549,26 +573,29 @@ footer {
     background-color: #edbdbd;
     font-size: 25px;
     border: none;
-    
+
 }
-.botones a{
+
+.botones a {
     margin-top: 10%;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #253779;
     background-color: #edbdbd;
     font-size: 25px;
-    
+
 
 }
-.terminosY{
+
+.terminosY {
     width: 30%;
     background-color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.terminosY a{
+
+.terminosY a {
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
@@ -578,7 +605,7 @@ footer {
     font-size: 15px;
 }
 
-.sectionPromo h3{
+.sectionPromo h3 {
     color: #192241;
     font-size: 40px;
     font-style: none;
@@ -586,5 +613,347 @@ footer {
     text-align: center;
     margin: 20px;
 
+}
+
+
+/*MEDIA QUERY 375 -*/
+@media (max-width: 375px) {
+      /*header--*/
+    .cabecera a {
+        font-size: 8px;
+    }
+
+    .cabecera ul {
+        display: flex;
+        flex-direction: column;
+    }
+  /*main--*/
+    .sectionLogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sectionLogo h1 {
+        font-size: 10px;
+    }
+
+    .sectionMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 5px;
+    }
+
+    .sectionMenu a {
+        font-size: 10px;
+    }
+
+    .sectionPromo h1 {
+        font-size: 25px;
+    }
+
+    .sectionPromo p {
+        font-size: 12px;
+    }
+
+    .contienePromos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .promo {
+        width: 80%;
+    }
+
+    .sectionTratamiento h1 {
+        font-size: 25px;
+    }
+
+    .contieneTratamientos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tratamientoHombre {
+        background-color: #192241;
+        width: 100%;
+    }
+
+    .botonTratamientoM {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .tratamientoMujer {
+        background-color: #FBDFEB;
+        width: 100%;
+    }
+
+    .botonTratamientoH {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .botonTratamientoM a {
+        text-decoration: none;
+        color: #EDC8C8;
+        font-size: 15px;
+    }
+
+    .botonTratamientoH a {
+        text-decoration: none;
+        color: #192241;
+        font-size: 15px;
+    }
+
+    /*FOOOTER-*/
+
+
+    .footer {
+        width: 100%;
+    }
+
+    .logoFooter img {
+        width: 50%;
+
+    }
+
+    .sectionContacto div a img {
+        width: 10%;
+    }
+
+    .sectionContacto a {
+        text-align: center;
+        font-size: 8px;
+
+    }
+
+    .sectionRedes a {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .sectionRedes div a img {
+        width: 10%;
+
+    }
+
+}
+/*MEDIA QUERY 425 -*/
+@media (max-width: 425px){
+   
+    /*header*/
+    .cabecera a {
+        font-size: 10px;
+    }
+
+    .cabecera ul {
+        display: flex;
+        flex-direction: column;
+    }
+/*Main*/
+    .sectionLogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sectionLogo h1 {
+        font-size: 12px;
+    }
+
+    .sectionMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 5px;
+    }
+
+    .sectionMenu a {
+        font-size: 10px;
+    }
+    .sectionPromo h1 {
+        font-size: 25px;
+    }
+
+    .sectionPromo p {
+        font-size: 12px;
+    }
+
+    .contienePromos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .promo img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sectionTratamiento h1 {
+        font-size: 25px;
+    }
+
+    .contieneTratamientos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tratamientoHombre {
+        background-color: #192241;
+        width: 100%;
+    }
+
+    .botonTratamientoM {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .tratamientoMujer {
+        background-color: #FBDFEB;
+        width: 100%;
+    }
+
+    .botonTratamientoH {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .botonTratamientoM a {
+        text-decoration: none;
+        color: #EDC8C8;
+        font-size: 15px;
+    }
+
+    .botonTratamientoH a {
+        text-decoration: none;
+        color: #192241;
+        font-size: 15px;
+    }
+   /*FOOOTER-*/
+
+
+   .footer {
+    width: 100%;
+}
+
+.logoFooter img {
+    width: 50%;
+
+}
+
+.sectionContacto div a img {
+    width: 10%;
+}
+
+.sectionContacto a {
+    text-align: center;
+    font-size: 8px;
+
+}
+
+.sectionRedes a {
+    font-size: 8px;
+    text-align: center;
+}
+
+.sectionRedes div a img {
+    width: 10%;
+
+}
+   
+    
+}
+/*MEDIA QUERY 768 -*/
+@media (max-width: 768px){
+    .cabecera a {
+        font-size: 10px;
+    }
+
+    .cabecera ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionLogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sectionLogo h1 {
+        font-size: 12px;
+    }
+
+    .sectionMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 5px;
+    }
+
+    .sectionMenu a {
+        font-size: 10px;
+    }
+    .sectionPromo h1 {
+        font-size: 25px;
+    }
+
+    .sectionPromo p {
+        font-size: 12px;
+    }
+
+    .contienePromos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .promo img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sectionTratamiento h1 {
+        font-size: 25px;
+    }
+
+    .contieneTratamientos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tratamientoHombre {
+        background-color: #192241;
+        width: 100%;
+    }
+
+    .botonTratamientoM {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .tratamientoMujer {
+        background-color: #FBDFEB;
+        width: 100%;
+    }
+
+    .botonTratamientoH {
+        background-color: #253779;
+        width: 50%;
+    }
+
+    .botonTratamientoM a {
+        text-decoration: none;
+        color: #EDC8C8;
+        font-size: 15px;
+    }
+
+    .botonTratamientoH a {
+        text-decoration: none;
+        color: #192241;
+        font-size: 15px;
+    }
 }
 

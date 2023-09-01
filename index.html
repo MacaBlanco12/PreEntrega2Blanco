@@ -20,30 +20,68 @@
 
 <body>
     <header>
-        <nav class="cabecera">
-            <ul>
-                <li><img src="./assets/images/wsp.png" alt=""><a href="./pages/contactanos.html">Contactanos</a></li>
-                <li><img src="./assets/images/info.png" alt=""><a href="./pages/sobre_nosotros.html">Sobre nosotros</a>
-                </li>
-                <li><img src="./assets/images/registro.png" alt=""> <a href="./pages/registrate.html">Registrate</a>
-                </li>
-                <li> <img src="./assets/images/iniciasesion.png" alt=""> <a href="./pages/iniciaSesion.html">Inicia
-                        sesion</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light colorNav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/logosinfondo (1).png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ingresa
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/iniciaSesion.html">Inicia sesión</a></li>
+                                <li><a class="dropdown-item" href="./pages/registrate.html">Registrate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./pages/sobre_nosotros.html" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/contactanos.html">Contactanos</a></li>
+                                <li><a class="dropdown-item" href="./pages/sobre_nosotros.html">¿Quienes somos?</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Información
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/tratamiento.html">Tratamiento</a></li>
+                                <li><a class="dropdown-item" href="./pages/tecnologia.html">Tecnologia</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/promociones.html">Promociones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     </header>
     <main>
-        <h1>PROBANDO</h1>
         <section class="sectionLogo">
-            <img src="./assets/images/LOGO MAB Mesa de trabajo 5 copia (1).png" alt="">
-            <h1>DEPILACION DEFINITIVA LASER</h1>
+            <div>
+                <h1>DEPILACIÓN DEFINITIVA LÁSER</h1>
+            </div>
         </section>
-        <section class="sectionMenu">
-            <a href="#">Inicio</a>
-            <a href="./pages/blog.html">Blog</a>
-            <a href="./pages/tecnologia.html">Tecnogolia</a>
-            <a href="./pages/tratamiento.html">Tratamiento</a>
-            <a href="./pages/promociones.html">Promociones</a>
-        </section>
+
+
         <section class="sectionPromo">
             <H1>DISFRUTA NUESTRAS PROMOCIONES</H1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A tempore inventore, officiis sit quia iure
@@ -51,28 +89,35 @@
                 dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis aspernatur fugiat ipsa
                 commodi quisquam sed id laboriosam repellendus ea eum quae repudiandae, vel laudantium minus nesciunt.
                 Repellat, saepe vitae.</p>
-
-            <div class="contienePromos">
-                <div class="promo">
-                    <a href=""><img src="./assets/images/promo1.jpg" alt=""></a>
-                    <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
-                            aqui</a></button>
-                </DIV>
-                <div class="promo">
-                    <a href=""><img src="./assets/images/promo3.jpg" alt=""></a>
-                    <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
-                            aqui</a></button>
-                </div>
-
-                <div class="promo">
-                    <a href=""><img src="./assets/images/promo2x1.jpg" alt=""></a>
-                    <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
-                            aqui</a></button>
-                </div>
-                <div class="promo">
-                    <a href=""><img src="./assets/images/promo4.jpg" alt=""></a>
-                    <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
-                            aqui</a></button>
+            <div class="contenedorCarrusel">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href=""><img src="./assets/images/promo1.jpg" alt=""></a>
+                            <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
+                                    aqui</a></button>
+                        </div>
+                        <div class="carousel-item">
+                            <a href=""><img src="./assets/images/promo3.jpg" alt=""></a>
+                            <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
+                                    aqui</a></button>
+                        </div>
+                        <div class="carousel-item">
+                            <a href=""><img src="./assets/images/promo2x1.jpg" alt=""></a>
+                            <button class="botonPromo"><a href="./pages/promociones.html">Obtenela haciendo click
+                                    aqui</a></button>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </section>

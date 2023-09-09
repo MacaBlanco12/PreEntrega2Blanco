@@ -74,10 +74,7 @@ body {
     margin-top: 12.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 }
-
 /*TITULO----------------*/
 .sectionPromo h1 {
     margin-bottom: 3.125rem;
@@ -88,7 +85,16 @@ body {
     letter-spacing: .25rem;
     text-align: center;
 }
-
+/*SUBTITULO---------------*/
+.sectionPromo h2 {
+    color: #253779;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
 /*PARRAFO-----------------*/
 .sectionPromo p {
     background-color: #ffffff;
@@ -102,20 +108,25 @@ body {
 }
 
 /*CARRUSEL---------------*/
-.contenedorCarrusel {
+.sectionPromo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.contenedorCarrusel{
+    width: auto;
+   
+}
+.contenedorImagenes {
+    width: 100%;
+    display: flex;
+   
+}
+.promosIndividuales{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.carousel-inner {
-    display: flex;
-    justify-content: baseline;
-}
-
-.contenedorImagenes {
-    width: 40%;
+    flex-wrap: wrap;
 }
 
 /*SECCION TRATAMIENTO------------------*/
@@ -125,11 +136,11 @@ body {
 }
 
 /*TITULO------------------*/
-.sectionTratamiento h1 {
-    width: 100%;
+.sectionTratamiento h2 {
+    width: auto;
     margin-bottom: 6.25rem;
     color: #192241;
-    font-size: 3.125rem;
+    font-size: 40px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .25rem;
@@ -147,6 +158,7 @@ body {
 .contieneTratamientos {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 /*TRATAMIENTO HOMBRES------------------*/
@@ -156,11 +168,10 @@ body {
 
 .tratamientoHombre {
     background-color: #253779;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 40px 10px 40px;
 }
 
 /*TRATAMIENTO MUJER------------------*/
@@ -170,11 +181,10 @@ body {
 
 .tratamientoMujer {
     background-color: #FBDFEB;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 40px 10px 40px;
 }
 
 /*BOTONES------------------*/
@@ -183,9 +193,8 @@ body {
     width: 25%;
 }
 
-.botonTratamientoH {
-    background-color: #EDC8C8;
-    width: 25%;
+.botonTratamientoH{
+    background-color: #edbdbd;
 }
 
 .botonTratamientoM a {
@@ -203,15 +212,16 @@ body {
 }
 
 /*FOOTER-----------------*/
-footer {
+
+.sectionFooter{
     background-color: #192241;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-around;
 }
-
-.sectionRedes a {
+.sectionFooter a{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #B7ACA3;
@@ -219,24 +229,10 @@ footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.sectionContacto a {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #B7ACA3;
-    font-size: 1.125rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.sectionRedes {
+.sectionRedes{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.sectionContacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center ;
 }
 
 /*BLOG------------------*/
@@ -470,18 +466,20 @@ footer {
     align-items: center;
 }
 
-.iniciaRegistro h1 {
+.iniciaRegistro h2 {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
     font-size: 2.1875rem;
 }
 
 .iniciaRegistro p {
+    text-align: center;
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     color: #192241;
     font-size: .9375rem;
     background-color: #edbdbd;
+    padding: .625rem .625rem .625rem .625rem ;
     margin-top: 3%;
 }
 
@@ -580,7 +578,35 @@ footer {
     text-align: center;
     margin: 20px;
 }
+/*CONTACTANOS-*/
+.sectionConsulta{
+    font-weight: bold;
+    color: #253779;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+}
 
+#validationCustom05 {
+    height: 150px; 
+    resize: vertical; 
+  }
+.botonContacto{
+    margin-top: .75rem;
+    margin-bottom: .625rem;
+    background-color: #edbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #FBDFEB;
+    border-bottom-color: #bab5b2 ;
+    border-bottom: #edbdbd;
+    border-style: groove;
+    
+}
 /*MEDIA QUERY 375 -*/
 @media (max-width: 375px) {
     .contieneArticulos {
@@ -704,7 +730,16 @@ footer {
 
     }
 }
-
+@media (max-width: 320px) {
+    .sectionPromo h2{
+        width: 100%;
+        font-size: 1.5625rem;
+    }
+    .sectionTratamiento h2{
+        width: 100%;
+        font-size: 1.5625rem;
+    }
+}
 /*MEDIA QUERY 425 -*/
 @media (max-width: 425px) {
     .contieneArticulos {
@@ -716,11 +751,11 @@ footer {
     }
 
     .contieneArticulos h3 {
-        font-size: 1.25rem;
+        font-size: 25px;
     }
 
     .contieneArticulos p {
-        font-size: .5rem;
+        font-size: 25px;
     }
 
     .contieneArticulos img {
@@ -950,7 +985,7 @@ footer {
     }
 
     .botonTratamientoH {
-        background-color: #253779;
+        background-color: #edbdbd;
         width: 50%;
     }
 

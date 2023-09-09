@@ -14,16 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/4bc98977ba557db3b2f5bb66bff54e25?family=Champagne+%26+Limousines+V1"
+        rel="stylesheet">
 </head>
-<link href="https://db.onlinewebfonts.com/c/4bc98977ba557db3b2f5bb66bff54e25?family=Champagne+%26+Limousines+V1"
-    rel="stylesheet">
+
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light colorNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html "><img src="../assets/images/logosinfondo (1).png"
-                        alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/logosinfondo (1).png" alt="logoMAB"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +42,13 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="../pages/sobre_nosotros.html" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sobre Nosotros
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="../pages/contactanos.html">Contactanos</a></li>
-                                <li><a class="dropdown-item" href="../pages/sobre_nosotros.html">¿Quienes somos?</a>
-                                </li>
+                                <li><a class="dropdown-item" href="../pages/sobre_nosotros.html">¿Quienes somos?</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -76,33 +75,80 @@
         </nav>
 
     </header>
-    <main>
-        
-    </main>
-
-    <footer>
-        <section class="sectionRedes">
-            <a href="">Seguinos en nuestras redes sociales</a>
-            <div>
-                <a href="https://www.facebook.com/mab.depilaser"><img src="../assets/images/fb.png" alt=""></a>
-                <a href="https://www.instagram.com/mabchacabuco/"><img src="../assets/images/ig.png" alt=""></a>
-
-            </div>
-        </section>
-        <div class="logoFooter">
-            <img src="../assets/images/logosinfondo (1).png" alt="">
+   <main>
+    <form class="sectionConsulta" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01"  required>
+          <div class="valid-feedback">
+            ¡Se ve bien!
+          </div>
         </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02"required>
+          <div class="valid-feedback">
+            ¡Se ve bien!
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom03" class="form-label">Celular(sin 0 ni 15)</label>
+          <input type="" class="form-control" id="validationCustom03" value="">
+          <div class="invalid-feedback">
+            Proporciona un numero valido
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom04" class="form-label">¿Tenes tratamiento previo?</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Selecciona una opción</option>
+            <option>Si, finalizado</option>
+            <option>Si, abandonado</option>
+            <option>No, nunca me realice depilacion laser</option>
+          </select>
+          <div class="invalid-feedback">
+            Selecciona un estado válido.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom05" class="form-label">Escribi tu consulta</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+        <div class="col-md">
+          <button class="botonContacto btn " type="submit">Enviar consulta</button>
+        </div>
+      </form>
+   </main>
+    <footer>
+        <div class="sectionFooter">
+            <section class="sectionRedes">
+                <a href="">Seguinos en nuestras redes sociales</a>
+                <div>
+                    <a href="https://www.facebook.com/mab.depilaser"><img src="../assets/images/fb.png"
+                            alt="iconoFacebook"></a>
+                    <a href="https://www.instagram.com/mabchacabuco/"><img src="../assets/images/ig.png"
+                            alt="iconoInstagram"></a>
 
-        <section class="sectionContacto">
-            <a href="">Comunicate con nosotros</a>
-            <div>
-                <a href="./pages/contactanos.html"><img src="../assets/images/gmail.png" alt=""></a>
-                <a href="./pages/contactanos.html"><img src="../assets/images/messenger.png" alt=""></a>
-                <a href="https://api.whatsapp.com/send?phone=542352468197&text=Hola%2C%20MAB"><img
-                        src="./assets/images/wsp.png" alt=""></a>
+                </div>
+            </section>
+            <div class="logoFooter">
+                <img src="../assets/images/logosinfondo (1).png" alt="logoMAB">
             </div>
 
-        </section>
+            <section class="sectionRedes">
+                <a href="">Comunicate con nosotros</a>
+                <div>
+                    <a href="../pages/contactanos.html"><img src="../assets/images/gmail.png" alt="iconoGmail"></a>
+                    <a href="../pages/contactanos.html"><img src="../assets/images/messenger.png" alt="iconoMsn"></a>
+                    <a href="https://api.whatsapp.com/send?phone=542352468197&text=Hola%2C%20MAB"><img
+                            src="../assets/images/wsp.png" alt="iconoWsp"></a>
+                </div>
+
+            </section>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

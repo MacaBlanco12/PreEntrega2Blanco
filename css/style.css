@@ -470,6 +470,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #253779;
     font-size: 2.1875rem;
+    text-align: center;
 }
 
 .iniciaRegistro p {
@@ -966,5 +967,10 @@ body {
         text-decoration: none;
         color: #192241;
         font-size: 15px;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

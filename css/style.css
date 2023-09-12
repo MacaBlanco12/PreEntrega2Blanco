@@ -75,6 +75,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /*TITULO----------------*/
 .sectionPromo h1 {
     margin-bottom: 3.125rem;
@@ -85,6 +86,7 @@ body {
     letter-spacing: .25rem;
     text-align: center;
 }
+
 /*SUBTITULO---------------*/
 .sectionPromo h2 {
     color: #253779;
@@ -95,6 +97,7 @@ body {
     text-align: center;
     margin-bottom: 1.25rem;
 }
+
 /*PARRAFO-----------------*/
 .sectionPromo p {
     background-color: #ffffff;
@@ -108,22 +111,25 @@ body {
 }
 
 /*CARRUSEL---------------*/
-.sectionPromo{
+.sectionPromo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;    
+
 }
-.contenedorCarrusel{
+
+.contenedorCarrusel {
+    margin 0;
     width: auto;
-   
 }
-.contenedorImagenes {
-    width: 100%;
-    display: flex;
-   
+.carousel-inner img {
+    max-width: 100%; 
+    height: auto; 
 }
-.promosIndividuales{
+
+
+
+
+.promosIndividuales {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -193,7 +199,7 @@ body {
     width: 25%;
 }
 
-.botonTratamientoH{
+.botonTratamientoH {
     background-color: #edbdbd;
 }
 
@@ -213,14 +219,15 @@ body {
 
 /*FOOTER-----------------*/
 
-.sectionFooter{
+.sectionFooter {
     background-color: #192241;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-.sectionFooter a{
+
+.sectionFooter a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -229,10 +236,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.sectionRedes{
+.sectionRedes {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
 }
 
 /*BLOG------------------*/
@@ -399,8 +406,15 @@ body {
 }
 
 /*LOGIN----*/
-.inicia h1 {
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.inicia h1 {
     color: #253779;
     font-size: 2.1875rem;
 }
@@ -412,32 +426,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-}
-
-.inicia a {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #253779;
-    background-color: #edbdbd;
-    font-size: 1.5625rem;
-    margin-top: 5%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.ingresa {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #253779;
-    background-color: #edbdbd;
-    font-size: 1.5625rem;
-    margin-top: 5%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
 }
 
 .controls {
@@ -451,10 +439,12 @@ body {
 
 .formulario {
     margin-top: 5%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: center;
 }
 
 .iniciaRegistro {
@@ -475,13 +465,14 @@ body {
 
 .iniciaRegistro p {
     text-align: center;
-    width: 50%;
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     color: #192241;
     font-size: .9375rem;
     background-color: #edbdbd;
-    padding: .625rem .625rem .625rem .625rem ;
-    margin-top: 3%;
+    padding: .625rem .625rem .625rem .625rem;
+    margin: .3125rem .3125rem .3125rem .3125rem;
+
 }
 
 .iniciaRegistro a {
@@ -496,11 +487,7 @@ body {
     border-width: 1px;
 }
 
-.principal {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 
 /*REGISTRO---*/
 .registrate h1 {
@@ -509,12 +496,14 @@ body {
     font-size: 2.1875rem;
     text-align: center;
 }
-.formularioRegistro{
+
+.formularioRegistro {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
     display: flex;
     justify-content: center;
 }
+
 .confirmar a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -522,36 +511,41 @@ body {
     color: #253779;
     font-size: 1.5625rem;
 }
-.confirmar{
-    margin: .3125rem .3125rem .3125rem .3125rem ;
-    padding: .3125rem .3125rem .3125rem .3125rem ;
+
+.confirmar {
+    margin: .3125rem .3125rem .3125rem .3125rem;
+    padding: .3125rem .3125rem .3125rem .3125rem;
     text-decoration: none;
     background-color: #edbdbd;
     border-color: black;
     border-style: solid;
     border-width: 1px;
 }
-.contieneBotones{
+
+.contieneBotones {
     display: flex;
     justify-content: center;
 }
-.form-control{
+
+.form-control {
     width: 100%;
     background-color: rgb(215, 211, 211);
     padding: 10px;
     border: rgba(215, 211, 211, 0.614);
 }
-.terminos{
+
+.terminos {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 /*CONTACTANOS-*/
-.sectionConsulta{
+.sectionConsulta {
     font-weight: bold;
     color: #253779;
     font-family: 'Montserrat', sans-serif;
-    font-size: large;
+    font-size: x-large;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -560,21 +554,42 @@ body {
 }
 
 #validationCustom05 {
-    height: 150px; 
-    resize: vertical; 
-  }
-.botonContacto{
+    height: 150px;
+    resize: vertical;
+}
+
+.botonContacto {
     margin-top: .75rem;
     margin-bottom: .625rem;
     background-color: #edbdbd;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: #FBDFEB;
-    border-bottom-color: #bab5b2 ;
+    border-bottom-color: #bab5b2;
     border-bottom: #edbdbd;
     border-style: groove;
-    
+
 }
+.contactos{
+    font-weight: bolder;
+    color: #edbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+/*SOBRE NOSOTROS-*/
+.presentacion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9375rem;
+    text-align:center;
+
+}
+.videoHombre{;
+}
+
 /*MEDIA QUERY 375 -*/
 @media (max-width: 375px) {
     .contieneArticulos {
@@ -698,16 +713,19 @@ body {
 
     }
 }
+
 @media (max-width: 320px) {
-    .sectionPromo h2{
+    .sectionPromo h2 {
         width: 100%;
         font-size: 1.5625rem;
     }
-    .sectionTratamiento h2{
+
+    .sectionTratamiento h2 {
         width: 100%;
         font-size: 1.5625rem;
     }
 }
+
 /*MEDIA QUERY 425 -*/
 @media (max-width: 425px) {
     .contieneArticulos {
@@ -762,6 +780,7 @@ body {
         font-size: 10px;
     }
 
+  
     .sectionPromo h1 {
         font-size: 25px;
     }
@@ -853,6 +872,20 @@ body {
 
     .sectionRedes div a img {
         width: 10%;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .iniciaRegistro {
+        width: 100%;
     }
 }
 
@@ -968,9 +1001,18 @@ body {
         color: #192241;
         font-size: 15px;
     }
-    .principal{
+
+    .principal {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .formulario {
+        width: 80%;
+    }
+
+    .iniciaRegistro {
+        width: 80%;
     }
 }

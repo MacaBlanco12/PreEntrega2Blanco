@@ -38,7 +38,7 @@ body {
 
 /*HEADER------------------*/
 
-/*SECCION DEL LOGO------------------*/
+/*SECCION DEL LOGO TITULO------------------*/
 .sectionLogo h1 {
     text-align: center;
     color: #192241;
@@ -48,7 +48,7 @@ body {
     letter-spacing: .625rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*SECCION DEL LOGO IMAGEN DE FONDO------------------*/
 .sectionLogo {
     margin: 0;
     width: 100%;
@@ -77,7 +77,7 @@ body {
 }
 
 /*TITULO----------------*/
-.sectionPromo h1 {
+.sectionPromo{
     margin-bottom: 3.125rem;
     color: #253779;
     font-size: 3.125rem;
@@ -87,30 +87,7 @@ body {
     text-align: center;
 }
 
-/*SUBTITULO---------------*/
-.sectionPromo h2 {
-    color: #253779;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .25rem;
-    text-align: center;
-    margin-bottom: 1.25rem;
-}
-
-/*PARRAFO-----------------*/
-.sectionPromo p {
-    background-color: #ffffff;
-    border: #EDC8C8 solid;
-    color: #253779;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 30%;
-    padding: 1.25rem 1.875rem 1.875rem 1.875rem;
-}
-
-/*CARRUSEL---------------*/
+/*CARRUSEL INDEX---------------*/
 .sectionPromo {
     display: flex;
     justify-content: center;
@@ -125,10 +102,7 @@ body {
     max-width: 100%; 
     height: auto; 
 }
-
-
-
-
+/*SECCION PROMOCIONES-----------------*/
 .promosIndividuales {
     display: flex;
     flex-direction: row;
@@ -141,7 +115,7 @@ body {
     margin-bottom: 12.5rem;
 }
 
-/*TITULO------------------*/
+/*TITULO TRATAMIENTO------------------*/
 .sectionTratamiento h2 {
     width: auto;
     margin-bottom: 6.25rem;
@@ -153,7 +127,7 @@ body {
     text-align: center;
 }
 
-/*SECCION TRATAMIENTO------------------*/
+/*PAGINA TRATAMIENTO------------------*/
 .videoPrincipalTratamiento {
     display: grid;
     place-items: center;
@@ -181,9 +155,10 @@ body {
 }
 
 /*TRATAMIENTO MUJER------------------*/
-.tratamientoMujer img {
+.contieneTratamientos img{
     margin-top: 10px;
 }
+
 
 .tratamientoMujer {
     background-color: #FBDFEB;
@@ -249,8 +224,8 @@ body {
     grid-template-columns: repeat(4, 1f);
     grid-template-rows: repeat(3, 1f);
     grid-template-areas:
-        "articulo1 articulo2 "
-        "articulo1 articulo2 "
+        "articulo1 articulo1 "
+        "articulo2 articulo2 "
         "articulo3 articulo4 "
         "articulo3 articulo4 "
         "articulo5 articulo4 "
@@ -270,7 +245,7 @@ body {
 }
 
 .articulo2 {
-    background-color: #192241;
+    background-color: #f5ebf0;
     grid-area: articulo2;
     display: flex;
     align-items: center;
@@ -284,7 +259,7 @@ body {
 }
 
 .articulo4 {
-    background-color: #192241;
+    background-color: #f5ebf0;
     grid-area: articulo4;
     display: flex;
     align-items: center;
@@ -305,17 +280,20 @@ body {
 /*TEXTO------------------*/
 .contieneArticulos p {
     font-family: 'Montserrat', sans-serif;
-    color: #FBDFEB;
-    font-size: .75rem;
+    color: #B7ACA3;
+    font-size: 1.125rem;
     width: 90%;
+    font-weight: bold;
+    
 }
 
 .contieneArticulos h3 {
     font-family: 'Montserrat', sans-serif;
     color: #edbdbd;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     display: flex;
     justify-content: center;
+    font-weight: bolder;
 }
 
 /*TRATAMIENTO----*/
@@ -541,14 +519,15 @@ body {
 }
 
 /*CONTACTANOS-*/
-.sectionConsulta {
+.sectionConsulta {  
     font-weight: bold;
-    color: #253779;
+    color: #edbdbd;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: .625rem;
     margin-bottom: .625rem;
 }
@@ -570,14 +549,23 @@ body {
     border-style: groove;
 
 }
+
 .contactos{
+    text-align: center;
+    background-color: #192241;
     font-weight: bolder;
     color: #edbdbd;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
+}
+.ubicacion{
     display: flex;
-    flex-direction:column;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mapa{
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 /*SOBRE NOSOTROS-*/
@@ -886,6 +874,11 @@ body {
 
     .iniciaRegistro {
         width: 100%;
+    }
+    /*SECCION CONTACTANOS*/
+    .mapa{
+        width: 3.125rem;
+        height: 3.125rem;
     }
 }
 
